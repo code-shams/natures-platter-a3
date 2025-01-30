@@ -1,17 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Nature's Platter</title>
         <!-- 🌟🌟Google Font CDN🌟🌟 -->
-
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+            rel="stylesheet"
+        />
         <!-- 🌟🌟Font Awesome CDN🌟🌟 -->
-
+        <script
+            src="https://kit.fontawesome.com/09275bb6c5.js"
+            crossorigin="anonymous"
+        ></script>
         <!-- 🌟🌟DaisyUI CDN🌟🌟 -->
-
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Tailwind Configuration -->
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            "primary-color": "rgba(23, 152, 0, 1)",
+                            "secondary-color": "rgba(239, 235, 227, 1)",
+                        },
+                    },
+                },
+            };
+        </script>
         <!-- 🌟🌟Custom CSS🌟🌟 -->
-        <style></style>
+        <style>
+            .primary-font {
+                font-family: "Sora", serif;
+            }
+        </style>
     </head>
-    <body></body>
+    <body class="primary-font">
+        <header>
+            <!-- 🌟🌟 <==> Navbar Container <==> 🌟🌟 -->
+            <nav class="max-w-screen-xl mx-auto">
+                <!-- Nav Container -->
+                <div
+                    class="flex justify-between items-center mt-3 lg:mt-7 px-3"
+                >
+                    <!-- Nav-start Logo -->
+                    <div class="w-3/12">
+                        <a href="">
+                            <img src="./assets/logo-header.png" alt="" />
+                        </a>
+                    </div>
+                    <!-- Nav Links -->
+                    <div class="hidden lg:block">
+                        <ul class="flex gap-7">
+                            <li>
+                                <a class="text-xl text-[#111111]" href=""
+                                    >Product</a
+                                >
+                            </li>
+                            <li>
+                                <a class="text-xl text-[#111111]" href=""
+                                    >Services</a
+                                >
+                            </li>
+                            <li>
+                                <a class="text-xl text-[#111111]" href=""
+                                    >Contact us</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Nav Buttons -->
+                    <div class="space-x-3 hidden lg:block">
+                        <a href=""
+                            ><i class="fa-solid fa-magnifying-glass"></i
+                        ></a>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        <button
+                            class="px-7 py-2 border border-primary-color rounded-lg text-xl"
+                        >
+                            Login
+                        </button>
+                        <button
+                            class="px-8 py-2 rounded-lg bg-primary-color text-white text-xl"
+                        >
+                            Register
+                        </button>
+                    </div>
+                    <div class="lg:hidden">
+                        <i class="fa-solid fa-bars text-primary-color"></i>
+                    </div>
+                </div>
+
+                <hr class="mt-1 border border-primary-color lg:hidden" />
+            </nav>
+        </header>
+        <main></main>
+        <footer></footer>
+    </body>
 </html>
