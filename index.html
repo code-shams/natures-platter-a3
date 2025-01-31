@@ -60,8 +60,11 @@
                 >
                     <!-- Nav-start Logo -->
                     <div class="w-3/12">
-                        <a href="">
+                        <a class="hidden lg:block" href="">
                             <img src="./assets/logo-header.png" alt="" />
+                        </a>
+                        <a class="lg:hidden" href="">
+                            <img src="./assets/logo-sm.png" alt="">
                         </a>
                     </div>
                     <!-- Nav Links -->
@@ -102,7 +105,7 @@
                         </button>
                     </div>
                     <div class="lg:hidden">
-                        <i class="fa-solid fa-bars text-primary-color"></i>
+                        <i class="fa-solid fa-bars text-primary-color text-2xl"></i>
                     </div>
                 </div>
 
@@ -136,6 +139,8 @@
                     </div>
                 </div>
             </section>
+        </header>
+        <main>
             <!-- 🌟🌟 <==> Services Section <==> 🌟🌟 -->
             <section class="max-w-screen-xl mx-auto mb-12 lg:mb-36 p-3">
                 <h2 class="text-primary-color font-semibold text-2xl lg:text-4xl mt-12 lg:mt-36 mb-10">Services</h2>
@@ -169,9 +174,9 @@
                     <div class="flex flex-col lg:flex-row gap-5">
                         <div class="w-full lg:w-1/3">
                             <div class="bg-product pl-8 py-12 lg:py-16 lg:px-10 rounded-xl h-[400px]">
-                                <div class="w-4/6">
+                                <div class="w-4/6 lg:w-full">
                                     <h2 class="text-white text-3xl font-bold mb-4"><span class="text-gray-200">30</span> % off</h2>
-                                    <p class="text-[#111111] text-base lg:text-lg mb-4">Discover a world of treats, toys and essentials handpicked for</p>
+                                    <p class="text-[#111111] text-base mb-4">Discover a world of treats, toys and essentials handpicked for</p>
                                 </div>
                                 <button class="px-8 py-2 bg-white rounded-lg text-[#111111] text-xl lg:text-2xl">Buy Now</button>
                             </div>
@@ -179,7 +184,7 @@
                         <!-- Grid Cards Container -->
                         <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-3 flex-1">
                             <!-- card1 -->
-                            <div class="flex gap-3 p-3 bg-white rounded-lg">
+                            <div class="flex gap-3 p-2 bg-white rounded-lg">
                                 <img src="./assets/onion.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
                                 <div class="flex flex-col justify-center">
                                     <div>
@@ -191,7 +196,7 @@
                                 </div>
                             </div>
                             <!-- card2 -->
-                            <div class="flex gap-3 p-3 bg-white rounded-lg">
+                            <div class="flex gap-3 p-2 bg-white rounded-lg">
                                 <img src="./assets/tomato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
                                 <div class="flex flex-col justify-center">
                                     <div>
@@ -203,7 +208,7 @@
                                 </div>
                             </div>
                             <!-- card3 -->
-                            <div class="flex gap-3 p-3 bg-white rounded-lg">
+                            <div class="flex gap-3 p-2 bg-white rounded-lg">
                                 <img src="./assets/potato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
                                 <div class="flex flex-col justify-center">
                                     <div>
@@ -215,7 +220,7 @@
                                 </div>
                             </div>
                             <!-- card4 -->
-                            <div class="flex gap-3 p-3 bg-white rounded-lg">
+                            <div class="flex gap-3 p-2 bg-white rounded-lg">
                                 <img src="./assets/tomato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
                                 <div class="flex flex-col justify-center">
                                     <div>
@@ -227,7 +232,7 @@
                                 </div>
                             </div>
                             <!-- card5 -->
-                            <div class="flex gap-3 p-3 bg-white rounded-lg">
+                            <div class="flex gap-3 p-2 bg-white rounded-lg">
                                 <img src="./assets/onion.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
                                 <div class="flex flex-col justify-center">
                                     <div>
@@ -239,7 +244,7 @@
                                 </div>
                             </div>
                             <!-- card6 -->
-                            <div class="flex gap-3 p-3 bg-white rounded-lg">
+                            <div class="flex gap-3 p-2 bg-white rounded-lg">
                                 <img src="./assets/tomato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
                                 <div class="flex flex-col justify-center">
                                     <div>
@@ -251,7 +256,7 @@
                                 </div>
                             </div>
                             <!-- card7 -->
-                            <div class="flex gap-3 p-3 bg-white rounded-lg">
+                            <div class="flex gap-3 p-2 bg-white rounded-lg">
                                 <img src="./assets/onion.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
                                 <div class="flex flex-col justify-center">
                                     <div>
@@ -263,7 +268,7 @@
                                 </div>
                             </div>
                             <!-- card8 -->
-                            <div class="flex gap-3 p-3 bg-white rounded-lg">
+                            <div class="flex gap-3 p-2 bg-white rounded-lg">
                                 <img src="./assets/potato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
                                 <div class="flex flex-col justify-center">
                                     <div>
@@ -275,7 +280,7 @@
                                 </div>
                             </div>
                             <!-- card9 -->
-                            <div class="hidden lg:flex gap-3 p-3 bg-white rounded-lg">
+                            <div class="hidden lg:flex gap-3 p-2 bg-white rounded-lg">
                                 <img src="./assets/potato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
                                 <div class="flex flex-col justify-center">
                                     <div>
@@ -291,10 +296,10 @@
                 </div>
             </section>
             <!-- 🌟🌟 <==> Offer Section <==> 🌟🌟 -->
-            <section class="max-w-screen-xl mx-auto p-3">
+            <section class="max-w-screen-xl mx-auto p-3 mb-80">
                 <h2 class="text-primary-color font-semibold text-2xl lg:text-4xl mb-10">Arrival & Offers</h2>
                 <!-- Cards Container -->
-                <div class="flex flex-col lg:flex-row gap-5">
+                <div class="flex flex-col lg:flex-row gap-5 lg:mb-32">
                     <!-- 🌟🌟card1🌟🌟 -->
                     <div class="pl-5 pt-8 lg:pt-5 bg-[#115414] rounded-3xl lg:w-7/12">
                         <div class="flex items-center gap-2 lg:gap-5 justify-between">
@@ -331,8 +336,68 @@
                     </div>
                 </div>
             </section>
-        </header>
-        <main></main>
-        <footer></footer>
+        </main>
+        <footer class="bg-primary-color relative p-3 flex flex-col items-center">
+            <!-- Grocery News Section -->
+            <section class="absolute -top-64 max-w-screen-xl rounded-3xl bg-secondary-color py-7 px-7 lg:px-24 lg:py-14 mx-3">
+                <!-- Container -->
+                <div class="flex flex-col lg:flex-row justify-between items-center gap-5">
+                    <!-- Image -->
+                    <div>
+                        <img src="./assets/vegetable-busket.png" alt="">
+                    </div>
+                    <!-- Content -->
+                    <div class="space-y-3 lg:space-y-5">
+                        <h1 class="text-3xl lg:text-4xl font-semibold text-primary-color lg:text-black text-center lg:text-left">Get Grocery News!</h1>
+                        <p class="text-lg lg:text-xl text-center lg:text-left">Exclusive training tips, ticks, product deals and more.</p>
+                        <div>
+                            <input type="email" placeholder="Enter email" class="input input-bordered w-full max-w-md" />
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <button
+                            class="px-8 py-2 rounded-lg bg-primary-color text-white text-xl"
+                        >
+                            Subscribe
+                        </button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <!-- Footer Section -->
+            <section class="max-w-screen-xl mx-auto mt-[400px] lg:mt-80 mb-20">
+                <!-- Grid Container -->
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-16">
+                    <div>
+                        <img src="./assets/logo-footer.png" alt="">
+                        <p class="text-xl text-white mt-3">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+                    </div>
+                    <div class="lg:mx-auto">
+                        <ul class="space-y-8">
+                            <li class="text-white text-xl"><a href="">Product</a></li>
+                            <li class="text-white text-xl"><a href="">Services</a></li>
+                            <li class="text-white text-xl"><a href="">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="mt-auto lg:ml-auto">
+                        <p class="text-xl text-white mb-3">Follow Us</p>
+                        <div class="space-x-5">
+                            <a href="">
+                                <i class="fa-brands fa-facebook text-white text-xl"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-instagram text-white text-xl"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-linkedin text-white text-xl"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-youtube text-white text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
     </body>
 </html>
