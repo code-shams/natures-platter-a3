@@ -41,12 +41,17 @@
             .primary-font {
                 font-family: "Sora", serif;
             }
-            .bg-product{
-                background: url(./assets/vegetable-offer.png), linear-gradient(135deg, rgb(1, 170, 1), rgb(152, 246, 152), rgb(210, 240, 210));
+            .bg-product {
+                background: url(./assets/vegetable-offer.png),
+                    linear-gradient(
+                        135deg,
+                        rgb(1, 170, 1),
+                        rgb(152, 246, 152),
+                        rgb(210, 240, 210)
+                    );
                 background-position: bottom right;
                 background-repeat: no-repeat, no-repeat;
                 background-size: 210px 250px, auto;
-
             }
         </style>
     </head>
@@ -64,7 +69,7 @@
                             <img src="./assets/logo-header.png" alt="" />
                         </a>
                         <a class="lg:hidden" href="">
-                            <img src="./assets/logo-sm.png" alt="">
+                            <img src="./assets/logo-sm.png" alt="" />
                         </a>
                     </div>
                     <!-- Nav Links -->
@@ -105,25 +110,30 @@
                         </button>
                     </div>
                     <div class="lg:hidden">
-                        <i class="fa-solid fa-bars text-primary-color text-2xl"></i>
+                        <i
+                            class="fa-solid fa-bars text-primary-color text-2xl"
+                        ></i>
                     </div>
                 </div>
 
                 <hr class="mt-2 border-primary-color lg:hidden" />
             </nav>
             <!-- 🌟🌟 <==> Banner Section <==> 🌟🌟 -->
-            <section class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] mt-12 lg:mt-32">
+            <section
+                class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] mt-12 lg:mt-32"
+            >
                 <div class="w-full flex flex-col items-center">
                     <!-- Text content -->
                     <div class="px-5 lg:w-3/5">
                         <h1
-                            class="text-center text-3xl lg:text-6xl font-semibold"
+                            class="text-center text-3xl lg:text-6xl font-semibold animate-bounce"
                         >
                             Freshness
                             <span class="text-primary-color"
-                                >You Can <br> Count</span
+                                >You Can <br />
+                                Count</span
                             >
-                            
+
                             On, Prices You’ll Love!
                         </h1>
                         <p
@@ -134,7 +144,7 @@
                             covered every day!
                         </p>
                     </div>
-                    <div class=>
+                    <div>
                         <img src="./assets/hero-vegetables.png" alt="" />
                     </div>
                 </div>
@@ -143,219 +153,481 @@
         <main>
             <!-- 🌟🌟 <==> Services Section <==> 🌟🌟 -->
             <section class="max-w-screen-xl mx-auto mb-12 lg:mb-36 p-3">
-                <h2 class="text-primary-color font-semibold text-2xl lg:text-4xl mt-12 lg:mt-36 mb-10">Services</h2>
+                <h2
+                    class="text-primary-color font-semibold text-2xl lg:text-4xl mt-12 lg:mt-36 mb-10"
+                >
+                    Services
+                </h2>
                 <!-- Cards Container -->
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                     <!-- Card1 -->
-                    <div class="p-8 bg-secondary-color rounded-2xl flex flex-col items-center gap-4">
-                        <img class="p-5 bg-white rounded-full" src="./assets/service.png" alt="">
-                        <h3 class="text-2xl font-semibold text-[#111111]">24/7 Services </h3>
-                        <p class="text-[#111111] text-xl font-light text-center">We’re here for you anytime, day or night! Our dedicated support team ensures you get the assistance you need, whenever you need it.</p>
+                    <div
+                        class="p-8 bg-secondary-color rounded-2xl flex flex-col items-center gap-4"
+                    >
+                        <img
+                            class="p-5 bg-white rounded-full"
+                            src="./assets/service.png"
+                            alt=""
+                        />
+                        <h3 class="text-2xl font-semibold text-[#111111]">
+                            24/7 Services
+                        </h3>
+                        <p
+                            class="text-[#111111] text-xl font-light text-center"
+                        >
+                            We’re here for you anytime, day or night! Our
+                            dedicated support team ensures you get the
+                            assistance you need, whenever you need it.
+                        </p>
                     </div>
                     <!-- Card2 -->
-                    <div class="p-8 bg-secondary-color rounded-2xl flex flex-col items-center gap-4">
-                        <img class="p-5 bg-white rounded-full" src="./assets/delivery.png" alt="">
-                        <h3 class="text-2xl font-semibold text-[#111111]">Fast Delivery</h3>
-                        <p class="text-[#111111] text-xl font-light text-center">Get your orders delivered at lightning speed! We prioritize efficiency so you can enjoy your products without unnecessary delays.</p>
+                    <div
+                        class="p-8 bg-secondary-color rounded-2xl flex flex-col items-center gap-4"
+                    >
+                        <img
+                            class="p-5 bg-white rounded-full"
+                            src="./assets/delivery.png"
+                            alt=""
+                        />
+                        <h3 class="text-2xl font-semibold text-[#111111]">
+                            Fast Delivery
+                        </h3>
+                        <p
+                            class="text-[#111111] text-xl font-light text-center"
+                        >
+                            Get your orders delivered at lightning speed! We
+                            prioritize efficiency so you can enjoy your products
+                            without unnecessary delays.
+                        </p>
                     </div>
                     <!-- Card3 -->
-                    <div class="p-8 bg-secondary-color rounded-2xl flex flex-col items-center gap-4">
-                        <img class="p-5 bg-white rounded-full" src="./assets/healthy.png" alt="">
-                        <h3 class="text-2xl font-semibold text-[#111111]">Healthy Products</h3>
-                        <p class="text-[#111111] text-xl font-light text-center">Your well-being is our priority! We offer high-quality, nutritious products to support a healthier lifestyle for you and your loved ones.</p>
+                    <div
+                        class="p-8 bg-secondary-color rounded-2xl flex flex-col items-center gap-4"
+                    >
+                        <img
+                            class="p-5 bg-white rounded-full"
+                            src="./assets/healthy.png"
+                            alt=""
+                        />
+                        <h3 class="text-2xl font-semibold text-[#111111]">
+                            Healthy Products
+                        </h3>
+                        <p
+                            class="text-[#111111] text-xl font-light text-center"
+                        >
+                            Your well-being is our priority! We offer
+                            high-quality, nutritious products to support a
+                            healthier lifestyle for you and your loved ones.
+                        </p>
                     </div>
                 </div>
             </section>
             <!-- 🌟🌟 <==> Testimonial Section <==> 🌟🌟 -->
             <section class="max-w-screen-xl mx-auto mb-12 lg:mb-36 p-3">
-                <h2 class="text-primary-color font-semibold text-2xl lg:text-4xl mb-10">Reviews</h2>
+                <h2
+                    class="text-primary-color font-semibold text-2xl lg:text-4xl mb-10"
+                >
+                    Reviews
+                </h2>
                 <!-- Cards Container -->
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                     <!-- Card1 -->
-                    <div class="p-8 bg-gradient-to-b from-gray-200 to-white rounded-2xl flex flex-col items-center gap-4 shadow-lg">
-                        <img class="p-5 w-3/4 bg-emerald-200 rounded-full" src="./assets/user-1.png" alt="">
+                    <div
+                        class="p-8 bg-gradient-to-b from-gray-200 to-white rounded-2xl flex flex-col items-center gap-4 shadow-lg"
+                    >
+                        <img
+                            class="p-5 w-3/4 bg-emerald-200 rounded-full"
+                            src="./assets/user-1.png"
+                            alt=""
+                        />
                         <!-- rating -->
                         <div class="text-center">
                             <div class="rating">
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input
-                                type="radio"
-                                name="rating-2"
-                                class="mask mask-star-2 bg-orange-400"
-                                checked="checked" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                    checked="checked"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
                             </div>
                         </div>
-                        <p class="text-[#111111] text-xl font-light text-center">"Fast delivery and fresh products! Highly recommended!" </p>
-                        <p class="text-[#111111] text-xl font-light text-center">- Jacob</p>
+                        <p
+                            class="text-[#111111] text-xl font-light text-center"
+                        >
+                            "Fast delivery and fresh products! Highly
+                            recommended!"
+                        </p>
+                        <p
+                            class="text-[#111111] text-xl font-light text-center"
+                        >
+                            - Jacob
+                        </p>
                     </div>
                     <!-- Card2 -->
-                    <div class="p-8 bg-gradient-to-b from-gray-200 to-white rounded-2xl flex flex-col items-center gap-4 shadow-lg">
-                        <img class="p-5 w-3/4 bg-emerald-200 rounded-full" src="./assets/user-2.png" alt="">
+                    <div
+                        class="p-8 bg-gradient-to-b from-gray-200 to-white rounded-2xl flex flex-col items-center gap-4 shadow-lg"
+                    >
+                        <img
+                            class="p-5 w-3/4 bg-emerald-200 rounded-full"
+                            src="./assets/user-2.png"
+                            alt=""
+                        />
                         <!-- rating -->
                         <div class="text-center">
                             <div class="rating">
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input
-                                type="radio"
-                                name="rating-2"
-                                class="mask mask-star-2 bg-orange-400"
-                                checked="checked" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                    checked="checked"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
                             </div>
                         </div>
-                        <p class="text-[#111111] text-xl font-light text-center">Affordable prices and great service!"</p>
-                        <p class="text-[#111111] text-xl font-light text-center">- Makisa</p>
+                        <p
+                            class="text-[#111111] text-xl font-light text-center"
+                        >
+                            Affordable prices and great service!"
+                        </p>
+                        <p
+                            class="text-[#111111] text-xl font-light text-center"
+                        >
+                            - Makisa
+                        </p>
                     </div>
                     <!-- Card3 -->
-                    <div class="p-8 bg-gradient-to-b from-gray-200 to-white rounded-2xl flex flex-col items-center gap-4 shadow-lg">
-                        <img class="p-5 w-3/4 bg-emerald-200 rounded-full" src="./assets/user-3.png" alt="">
+                    <div
+                        class="p-8 bg-gradient-to-b from-gray-200 to-white rounded-2xl flex flex-col items-center gap-4 shadow-lg"
+                    >
+                        <img
+                            class="p-5 w-3/4 bg-emerald-200 rounded-full"
+                            src="./assets/user-3.png"
+                            alt=""
+                        />
                         <!-- rating -->
                         <div class="text-center">
                             <div class="rating">
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                 <input
-                                type="radio"
-                                name="rating-2"
-                                class="mask mask-star-2 bg-orange-400"
-                                checked="checked" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                    checked="checked"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
+                                <input
+                                    type="radio"
+                                    name="rating-2"
+                                    class="mask mask-star-2 bg-orange-400"
+                                />
                             </div>
                         </div>
-                        <p class="text-[#111111] text-xl font-light text-center">"Fast delivery and fresh products! Highly recommended!"</p>
-                        <p class="text-[#111111] text-xl font-light text-center">- Casca</p>
+                        <p
+                            class="text-[#111111] text-xl font-light text-center"
+                        >
+                            "Fast delivery and fresh products! Highly
+                            recommended!"
+                        </p>
+                        <p
+                            class="text-[#111111] text-xl font-light text-center"
+                        >
+                            - Casca
+                        </p>
                     </div>
-                    
                 </div>
             </section>
             <!-- 🌟🌟 <==> Popular Products Section <==> 🌟🌟 -->
             <section class="bg-secondary-color my-12 lg:my-36 py-10 lg:py-36">
                 <div class="max-w-screen-xl mx-auto p-3">
-                    <h2 class="text-primary-color font-semibold text-2xl lg:text-4xl mb-10">Popular Products</h2>
+                    <h2
+                        class="text-primary-color font-semibold text-2xl lg:text-4xl mb-10"
+                    >
+                        Popular Products
+                    </h2>
                     <!-- Cards Container -->
                     <div class="flex flex-col lg:flex-row gap-5">
                         <div class="w-full lg:w-1/3">
-                            <div class="bg-product pl-8 py-12 lg:py-16 lg:px-10 rounded-xl h-[400px]">
+                            <div
+                                class="bg-product pl-8 py-12 lg:py-16 lg:px-10 rounded-xl h-[400px]"
+                            >
                                 <div class="w-4/6 lg:w-full">
-                                    <h2 class="text-white text-3xl font-bold mb-4"><span class="text-gray-200">30</span> % off</h2>
-                                    <p class="text-[#111111] text-base mb-4">Discover a world of treats, toys and essentials handpicked for</p>
+                                    <h2
+                                        class="text-white text-3xl font-bold mb-4"
+                                    >
+                                        <span class="text-gray-200">30</span> %
+                                        off
+                                    </h2>
+                                    <p class="text-[#111111] text-base mb-4">
+                                        Discover a world of treats, toys and
+                                        essentials handpicked for
+                                    </p>
                                 </div>
-                                <button class="px-8 py-2 bg-white rounded-lg text-[#111111] text-xl lg:text-2xl">Buy Now</button>
+                                <button
+                                    class="px-8 py-2 bg-white rounded-lg text-[#111111] text-xl lg:text-2xl"
+                                >
+                                    Buy Now
+                                </button>
                             </div>
                         </div>
                         <!-- Grid Cards Container -->
-                        <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-3 flex-1">
+                        <div
+                            class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-3 flex-1"
+                        >
                             <!-- card1 -->
                             <div class="flex gap-3 p-2 bg-white rounded-lg">
-                                <img src="./assets/onion.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
+                                <img
+                                    src="./assets/onion.png"
+                                    class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto"
+                                    alt=""
+                                />
                                 <div class="flex flex-col justify-center">
                                     <div>
-                                        <span><i class="fa-solid fa-star text-yellow-400"></i></span>
+                                        <span
+                                            ><i
+                                                class="fa-solid fa-star text-yellow-400"
+                                            ></i
+                                        ></span>
                                         <span>4.5</span>
                                     </div>
-                                    <h4 class="text-base lg:text-lg font-medium">Onion 1 KG</h4>
+                                    <h4
+                                        class="text-base lg:text-lg font-medium"
+                                    >
+                                        Onion 1 KG
+                                    </h4>
                                     <p>$39.99</p>
                                 </div>
                             </div>
                             <!-- card2 -->
                             <div class="flex gap-3 p-2 bg-white rounded-lg">
-                                <img src="./assets/tomato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
+                                <img
+                                    src="./assets/tomato.png"
+                                    class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto"
+                                    alt=""
+                                />
                                 <div class="flex flex-col justify-center">
                                     <div>
-                                        <span><i class="fa-solid fa-star text-yellow-400"></i></span>
+                                        <span
+                                            ><i
+                                                class="fa-solid fa-star text-yellow-400"
+                                            ></i
+                                        ></span>
                                         <span>4.5</span>
                                     </div>
-                                    <h4 class="text-sm lg:text-lg font-medium">Tomato 500 g</h4>
+                                    <h4 class="text-sm lg:text-lg font-medium">
+                                        Tomato 500 g
+                                    </h4>
                                     <p>$39.99</p>
                                 </div>
                             </div>
                             <!-- card3 -->
                             <div class="flex gap-3 p-2 bg-white rounded-lg">
-                                <img src="./assets/potato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
+                                <img
+                                    src="./assets/potato.png"
+                                    class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto"
+                                    alt=""
+                                />
                                 <div class="flex flex-col justify-center">
                                     <div>
-                                        <span><i class="fa-solid fa-star text-yellow-400"></i></span>
+                                        <span
+                                            ><i
+                                                class="fa-solid fa-star text-yellow-400"
+                                            ></i
+                                        ></span>
                                         <span>4.5</span>
                                     </div>
-                                    <h4 class="text-sm lg:text-lg font-medium">Potato 1KG</h4>
+                                    <h4 class="text-sm lg:text-lg font-medium">
+                                        Potato 1KG
+                                    </h4>
                                     <p>$39.99</p>
                                 </div>
                             </div>
                             <!-- card4 -->
                             <div class="flex gap-3 p-2 bg-white rounded-lg">
-                                <img src="./assets/tomato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
+                                <img
+                                    src="./assets/tomato.png"
+                                    class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto"
+                                    alt=""
+                                />
                                 <div class="flex flex-col justify-center">
                                     <div>
-                                        <span><i class="fa-solid fa-star text-yellow-400"></i></span>
+                                        <span
+                                            ><i
+                                                class="fa-solid fa-star text-yellow-400"
+                                            ></i
+                                        ></span>
                                         <span>4.5</span>
                                     </div>
-                                    <h4 class="text-sm lg:text-lg font-medium">Tomato 500 g</h4>
+                                    <h4 class="text-sm lg:text-lg font-medium">
+                                        Tomato 500 g
+                                    </h4>
                                     <p>$39.99</p>
                                 </div>
                             </div>
                             <!-- card5 -->
                             <div class="flex gap-3 p-2 bg-white rounded-lg">
-                                <img src="./assets/onion.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
+                                <img
+                                    src="./assets/onion.png"
+                                    class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto"
+                                    alt=""
+                                />
                                 <div class="flex flex-col justify-center">
                                     <div>
-                                        <span><i class="fa-solid fa-star text-yellow-400"></i></span>
+                                        <span
+                                            ><i
+                                                class="fa-solid fa-star text-yellow-400"
+                                            ></i
+                                        ></span>
                                         <span>4.5</span>
                                     </div>
-                                    <h4 class="text-base lg:text-lg font-medium">Onion 1 KG</h4>
+                                    <h4
+                                        class="text-base lg:text-lg font-medium"
+                                    >
+                                        Onion 1 KG
+                                    </h4>
                                     <p>$39.99</p>
                                 </div>
                             </div>
                             <!-- card6 -->
                             <div class="flex gap-3 p-2 bg-white rounded-lg">
-                                <img src="./assets/tomato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
+                                <img
+                                    src="./assets/tomato.png"
+                                    class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto"
+                                    alt=""
+                                />
                                 <div class="flex flex-col justify-center">
                                     <div>
-                                        <span><i class="fa-solid fa-star text-yellow-400"></i></span>
+                                        <span
+                                            ><i
+                                                class="fa-solid fa-star text-yellow-400"
+                                            ></i
+                                        ></span>
                                         <span>4.5</span>
                                     </div>
-                                    <h4 class="text-sm lg:text-lg font-medium">Tomato 500 g</h4>
+                                    <h4 class="text-sm lg:text-lg font-medium">
+                                        Tomato 500 g
+                                    </h4>
                                     <p>$39.99</p>
                                 </div>
                             </div>
                             <!-- card7 -->
                             <div class="flex gap-3 p-2 bg-white rounded-lg">
-                                <img src="./assets/onion.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
+                                <img
+                                    src="./assets/onion.png"
+                                    class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto"
+                                    alt=""
+                                />
                                 <div class="flex flex-col justify-center">
                                     <div>
-                                        <span><i class="fa-solid fa-star text-yellow-400"></i></span>
+                                        <span
+                                            ><i
+                                                class="fa-solid fa-star text-yellow-400"
+                                            ></i
+                                        ></span>
                                         <span>4.5</span>
                                     </div>
-                                    <h4 class="text-base lg:text-lg font-medium">Onion 1 KG</h4>
+                                    <h4
+                                        class="text-base lg:text-lg font-medium"
+                                    >
+                                        Onion 1 KG
+                                    </h4>
                                     <p>$39.99</p>
                                 </div>
                             </div>
                             <!-- card8 -->
                             <div class="flex gap-3 p-2 bg-white rounded-lg">
-                                <img src="./assets/potato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
+                                <img
+                                    src="./assets/potato.png"
+                                    class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto"
+                                    alt=""
+                                />
                                 <div class="flex flex-col justify-center">
                                     <div>
-                                        <span><i class="fa-solid fa-star text-yellow-400"></i></span>
+                                        <span
+                                            ><i
+                                                class="fa-solid fa-star text-yellow-400"
+                                            ></i
+                                        ></span>
                                         <span>4.5</span>
                                     </div>
-                                    <h4 class="text-sm lg:text-lg font-medium">Potato 1KG</h4>
+                                    <h4 class="text-sm lg:text-lg font-medium">
+                                        Potato 1KG
+                                    </h4>
                                     <p>$39.99</p>
                                 </div>
                             </div>
                             <!-- card9 -->
-                            <div class="hidden lg:flex gap-3 p-2 bg-white rounded-lg">
-                                <img src="./assets/potato.png" class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto" alt="">
+                            <div
+                                class="hidden lg:flex gap-3 p-2 bg-white rounded-lg"
+                            >
+                                <img
+                                    src="./assets/potato.png"
+                                    class="p-2 bg-secondary-color rounded-lg w-1/3 h-4/5 my-auto"
+                                    alt=""
+                                />
                                 <div class="flex flex-col justify-center">
                                     <div>
-                                        <span><i class="fa-solid fa-star text-yellow-400"></i></span>
+                                        <span
+                                            ><i
+                                                class="fa-solid fa-star text-yellow-400"
+                                            ></i
+                                        ></span>
                                         <span>4.5</span>
                                     </div>
-                                    <h4 class="text-sm lg:text-lg font-medium">Potato 1KG</h4>
+                                    <h4 class="text-sm lg:text-lg font-medium">
+                                        Potato 1KG
+                                    </h4>
                                     <p>$39.99</p>
                                 </div>
                             </div>
@@ -365,70 +637,116 @@
             </section>
             <!-- 🌟🌟 <==> Offer Section <==> 🌟🌟 -->
             <section class="max-w-screen-xl mx-auto p-3 mb-80">
-                <h2 class="text-primary-color font-semibold text-2xl lg:text-4xl mb-10">Arrival & Offers</h2>
+                <h2
+                    class="text-primary-color font-semibold text-2xl lg:text-4xl mb-10"
+                >
+                    Arrival & Offers
+                </h2>
                 <!-- Cards Container -->
                 <div class="flex flex-col lg:flex-row gap-5 lg:mb-32">
                     <!-- 🌟🌟card1🌟🌟 -->
-                    <div class="pl-5 pt-8 lg:pt-5 bg-[#115414] rounded-3xl lg:w-7/12">
-                        <div class="flex items-center gap-2 lg:gap-5 justify-between">
+                    <div
+                        class="pl-5 pt-8 lg:pt-5 bg-[#115414] rounded-3xl lg:w-7/12"
+                    >
+                        <div
+                            class="flex items-center gap-2 lg:gap-5 justify-between"
+                        >
                             <!-- card info -->
                             <div class="space-y-5">
-                                <img src="./assets/dawat-logo.png" alt="">
-                                <button class="bg-primary-color py-2 px-4 lg:py-3 lg:px-8 text-sm lg:text-xl text-white rounded-xl">
+                                <img src="./assets/dawat-logo.png" alt="" />
+                                <button
+                                    class="bg-primary-color py-2 px-4 lg:py-3 lg:px-8 text-sm lg:text-xl text-white rounded-xl"
+                                >
                                     Cook Exotic Dishes
                                 </button>
-                                <h2 class="text-white text-xl lg:text-4xl">Up to <span class="font-bold">20% OFF</span></h2>
+                                <h2 class="text-white text-xl lg:text-4xl">
+                                    Up to <span class="font-bold">20% OFF</span>
+                                </h2>
                             </div>
                             <!-- card image -->
                             <div class="w-3/4 lg:w-1/2">
-                                <img src="./assets/dawat-mock-up.png" class="" alt="">
+                                <img
+                                    src="./assets/dawat-mock-up.png"
+                                    class=""
+                                    alt=""
+                                />
                             </div>
                         </div>
                     </div>
                     <!-- 🌟🌟Card2🌟🌟 -->
-                    <div class="pl-5 lg:px-5 py-3 bg-[#102861] rounded-3xl lg:w-5/12">
+                    <div
+                        class="pl-5 lg:px-5 py-3 bg-[#102861] rounded-3xl lg:w-5/12"
+                    >
                         <div class="flex items-center gap-5 justify-between">
                             <!-- card info -->
                             <div class="space-y-5">
-                                <img src="./assets/india-gate-logo.png" class="w-3/6 lg:w-1/3" alt="">
-                                <button class="bg-[#2A4D97] py-2 px-4 lg:py-3 lg:px-8 text-sm lg:text-2xl text-white rounded-xl">
+                                <img
+                                    src="./assets/india-gate-logo.png"
+                                    class="w-3/6 lg:w-1/3"
+                                    alt=""
+                                />
+                                <button
+                                    class="bg-[#2A4D97] py-2 px-4 lg:py-3 lg:px-8 text-sm lg:text-2xl text-white rounded-xl"
+                                >
                                     World's No.1 Rice
                                 </button>
-                                <h2 class="text-white text-xl lg:text-4xl">Up to <span class="font-bold">40% OFF</span></h2>
+                                <h2 class="text-white text-xl lg:text-4xl">
+                                    Up to <span class="font-bold">40% OFF</span>
+                                </h2>
                             </div>
                             <!-- card image -->
                             <div>
-                                <img src="./assets/india-gate-mock-up.png" class="w-4/6 lg:w-full mx-auto" alt="">
+                                <img
+                                    src="./assets/india-gate-mock-up.png"
+                                    class="w-4/6 lg:w-full mx-auto"
+                                    alt=""
+                                />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
-        <footer class="bg-primary-color relative p-3 flex flex-col items-center">
+        <footer
+            class="bg-primary-color relative p-3 flex flex-col items-center"
+        >
             <!-- Grocery News Section -->
-            <section class="absolute -top-64 max-w-screen-xl rounded-3xl bg-secondary-color py-7 px-7 lg:px-24 lg:py-14 mx-3">
+            <section
+                class="absolute -top-64 max-w-screen-xl rounded-3xl bg-secondary-color py-7 px-7 lg:px-24 lg:py-14 mx-3"
+            >
                 <!-- Container -->
-                <div class="flex flex-col lg:flex-row justify-between items-center gap-5">
+                <div
+                    class="flex flex-col lg:flex-row justify-between items-center gap-5"
+                >
                     <!-- Image -->
                     <div>
-                        <img src="./assets/vegetable-busket.png" alt="">
+                        <img src="./assets/vegetable-busket.png" alt="" />
                     </div>
                     <!-- Content -->
                     <div class="space-y-3 lg:space-y-5">
-                        <h1 class="text-3xl lg:text-4xl font-semibold text-primary-color lg:text-black text-center lg:text-left">Get Grocery News!</h1>
-                        <p class="text-lg lg:text-xl text-center lg:text-left">Exclusive training tips, ticks, product deals and more.</p>
+                        <h1
+                            class="text-3xl lg:text-4xl font-semibold text-primary-color lg:text-black text-center lg:text-left"
+                        >
+                            Get Grocery News!
+                        </h1>
+                        <p class="text-lg lg:text-xl text-center lg:text-left">
+                            Exclusive training tips, ticks, product deals and
+                            more.
+                        </p>
                         <div>
-                            <input type="email" placeholder="Enter email" class="input input-bordered w-full max-w-md" />
+                            <input
+                                type="email"
+                                placeholder="Enter email"
+                                class="input input-bordered w-full max-w-md"
+                            />
                         </div>
                         <div class="text-center lg:text-left">
                             <button
-                            class="px-8 py-2 rounded-lg bg-primary-color text-white text-xl"
-                        >
-                            Subscribe
-                        </button>
+                                class="px-8 py-2 rounded-lg bg-primary-color text-white text-xl"
+                            >
+                                Subscribe
+                            </button>
                         </div>
-                        
                     </div>
                 </div>
             </section>
@@ -437,30 +755,47 @@
                 <!-- Grid Container -->
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
                     <div>
-                        <img src="./assets/logo-footer.png" alt="">
-                        <p class="text-xl text-white mt-3">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+                        <img src="./assets/logo-footer.png" alt="" />
+                        <p class="text-xl text-white mt-3">
+                            Discover a world of treats, toys, and essentials
+                            handpicked for your furry friends
+                        </p>
                     </div>
                     <div class="lg:mx-auto">
                         <ul class="space-y-8">
-                            <li class="text-white text-xl"><a href="">Product</a></li>
-                            <li class="text-white text-xl"><a href="">Services</a></li>
-                            <li class="text-white text-xl"><a href="">Contact us</a></li>
+                            <li class="text-white text-xl">
+                                <a href="">Product</a>
+                            </li>
+                            <li class="text-white text-xl">
+                                <a href="">Services</a>
+                            </li>
+                            <li class="text-white text-xl">
+                                <a href="">Contact us</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="mt-auto lg:ml-auto">
                         <p class="text-xl text-white mb-3">Follow Us</p>
                         <div class="space-x-5">
                             <a href="">
-                                <i class="fa-brands fa-facebook text-white text-xl"></i>
+                                <i
+                                    class="fa-brands fa-facebook text-white text-xl"
+                                ></i>
                             </a>
                             <a href="">
-                                <i class="fa-brands fa-instagram text-white text-xl"></i>
+                                <i
+                                    class="fa-brands fa-instagram text-white text-xl"
+                                ></i>
                             </a>
                             <a href="">
-                                <i class="fa-brands fa-linkedin text-white text-xl"></i>
+                                <i
+                                    class="fa-brands fa-linkedin text-white text-xl"
+                                ></i>
                             </a>
                             <a href="">
-                                <i class="fa-brands fa-youtube text-white text-xl"></i>
+                                <i
+                                    class="fa-brands fa-youtube text-white text-xl"
+                                ></i>
                             </a>
                         </div>
                     </div>
